@@ -9,7 +9,7 @@ public class Bike {
 		System.out.println("bike is start");
 		System.out.println("brand ="   +   brand);
 		System.out.println("color ="   +   color);
-		System.out.println("mileage=" +   mileage);
+		System.out.println("mileage = " +   mileage);
 		
 	}
 
