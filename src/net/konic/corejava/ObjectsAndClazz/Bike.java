@@ -1,6 +1,6 @@
 package net.konic.corejava.ObjectsAndClazz;
 
-public class Bike {
+ class Bikes {
 	
 	String brand;
 	String color;
@@ -11,6 +11,19 @@ public class Bike {
 		System.out.println("color ="   +   color);
 		System.out.println("mileage = " +   mileage);
 		
+	}
+
+}
+
+
+ public class Bike {
+	public static void main(String[] args) {
+		Bikes bikes = new Bikes();
+		bikes.brand = " Honda";   
+		bikes.color = " black";
+		bikes.mileage = 65;
+
+		bikes.start();
 	}
 
 }
