@@ -7,10 +7,9 @@ public class Bill {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter item price: ");
 		double itemPrice = sc.nextDouble();
 
-		System.out.print("Enter quantity: ");
+		System.out.println("Enter quantity: ");
 		int quantity = sc.nextInt();
 
 		double totalPrice = itemPrice * quantity;

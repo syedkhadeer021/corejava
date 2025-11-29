@@ -19,6 +19,7 @@ public class Arithmetic {
 		System.out.println("Division (a / b) = " + (a / b));
 		System.out.println("Modulus (a % b) = " + (a % b));
 
+
 	}
 
 }

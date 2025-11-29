@@ -7,7 +7,7 @@ package net.konic.corejava.Methodsss;
 
 public class Car {
 
-	public void car(String a, int b) {
+	public void car(String a, String b) {
 		System.out.println(a);
 		System.out.println(b);
 
@@ -15,7 +15,7 @@ public class Car {
 
 	public static void main(String[] args) {
 		Car car = new Car();
-		car.car("Rolls Royce", 75000000);
+		car.car("Rolls Royce", "khadeer");
 
 	}
 }
