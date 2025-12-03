@@ -19,7 +19,7 @@ public class StudentMarks {
 
 	        StudentMarks studentmarks = new StudentMarks();
 
-	        studentmarks.setMarks(40);
+	        studentmarks.setMarks(33);
 
 	        String result = studentmarks.checkResult(); 
 

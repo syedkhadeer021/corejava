@@ -8,12 +8,11 @@ public class PrimeChecker {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int n = sc.nextInt();  
+        int n = sc.nextInt(); 
 
         number = n; 
     }
-
-   
+  
     public boolean isPrime() {
 
         if (number <= 1) {
@@ -28,7 +27,7 @@ public class PrimeChecker {
         return true;  
     }
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
 
         PrimeChecker primechecker = new PrimeChecker();
 
