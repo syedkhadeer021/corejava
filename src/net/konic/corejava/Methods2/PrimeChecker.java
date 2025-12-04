@@ -3,7 +3,7 @@ package net.konic.corejava.Methods2;
 import java.util.Scanner;
 
 public class PrimeChecker {
-	int number;  
+	public int number;  
     public void readNumber() {
         Scanner sc = new Scanner(System.in);
 
