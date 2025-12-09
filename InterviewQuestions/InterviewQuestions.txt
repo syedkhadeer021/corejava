@@ -1,0 +1,94 @@
+JAVA Interview Preparation
+
+1.What is java ?
+➢
+  Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+➢
+It is a general-purpose programming language intended to let programmers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need to recompile.
+➢
+it is used to develop a wide variety of applications, including:
+➢
+Web applications, Mobile applications, Desktop applications, Enterprise software, Scientific applications, and Embedded systems.
+2.Explain the differ b/w JDK, JRE, JVM.
+JDK :
+ Java Development Kit is a software development environment that includes JRE and development tools. It's used to create Java applications and applets. JDK includes tools like a compiler, debugger, and documentation generator.
+JRE :
+ Java Runtime Environment is a set of software tools that provides a runtime environment for running other software. It's used to run Java applications. JRE contains class libraries, supporting files, and the JVM.
+JVM :
+ Java Virtual Machine is the foundation of Java programming language and ensures the program's Java source code will be platform-agnostic. It's used to run Java bytecode. JVM is included in both JDK and JRE, and Java programs won't run without it.
+3. what are the main features of java ?
+1.
+ Simple and Easy to Learn. Java is easy to learn and simple to use as a programming language.
+2.
+ Object-Oriented Programming.
+3.
+ Platform Independence.
+4.
+ Automatic Memory Management.
+5.
+ Security.
+6.
+ Rich API.
+7.
+ Multithreading.
+8.
+ High Performance
+9.
+ 
+ Scalability
+
+
+TYPE
+DESCRIPTION
+DEFAULT
+SIZE
+EXAMPLE LITERALS
+RANGE OF VALUES
+boolean
+true or false
+false
+1 bit
+true, false
+true, false
+byte
+twos complement integer
+0
+8 bits
+(none)
+-128 to 127
+char
+unicode character
+\u0000
+16 bits
+'a', '\u0041', '\101', '\\', '\'', '\n', 'β'
+character representation of ASCII values 0 to 255
+short
+twos complement integer
+0
+16 bits
+(none)
+-32,768 to 32,767
+int
+twos complement integer
+0
+32 bits
+-2, -1, 0, 1, 2
+-2,147,483,648 to 2,147,483,647
+long
+twos complement integer
+0
+64 bits
+-2L, -1L, 0L, 1L, 2L
+-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float
+IEEE 754 floating point
+0.0
+32 bits
+1.23e100f, -1.23e-100f, 3f, 3.14F
+upto 7 decimal digits
+double
+IEEE 754 floating point
+0.0
+64 bits
+1.23456e300d, -1.23456e-300d, 1e1d
+upto 16 decimal digits
