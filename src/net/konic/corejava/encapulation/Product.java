@@ -22,7 +22,7 @@ public class Product {
 
         Product p = new Product();
 
-        double inputPrice = 500;   // change to -500 to test
+        double inputPrice = 500;  
 
         p.setPrice(inputPrice);
 
